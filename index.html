@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous"
+  />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <!-- Section 1 --------------------------- -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#home" class="navbar_logo">New Website</a>
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <ul class="navbar_menu">
+            <li class="navbar_item">
+              <a href="#home" class="navbar_links" id="home-page">Home</a>
+            </li>
+            <li class="navbar_item">
+              <a href="#about" class="navbar_links" id="about-page">About</a>
+            </li>
+            <li class="navbar_item">
+              <a href="#services" class="navbar_links" id="services-page"
+                >Benefits</a
+              >
+            </li>
+            <li class="navbar_btn">
+              <a href="#sign-up" class="button" id="signup">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Section 2 ----------------------------->
+      <div class="hero" id="home">
+        <div class="hero_container">
+          <h1 class="hero_heading">Choose your <span>next adventure</span></h1>
+          <p class="hero_description">You could go anywhere</p>
+          <button class="main_btn"><a href="#services">Explore</a></button>
+        </div>
+      </div>
+      <!-- Section 3 ----------------------------->
+      <div class="main" id="about">
+        <div class="main_container">
+          <div class="main_img-container">
+            <div class="main_img-card"></div>
+          </div>
+          <div class="main_content">
+            <h1>Book a ride now</h1>
+            <h2>Go anywhere!</h2>
+            <p>Schedule a call to learn more about our services</p>
+            <button class="main_btn"><a href="#">Schedule Call</a></button>
+          </div>
+        </div>
+        <!--  Section 4 --------------->
+    <div class="benefits" id="services">
+        <h1>Benefits of traveling with us</h1>
+        <div class="benefits_wrapper">
+          <div class="benefits_card">
+            <h2>Meet tons of wonderful people</h2>
+            <p>Ride along with others</p>
+            <div class="benefits_btn"></div>
+          </div>
+          <div class="benefits_card">
+            <h2>Travel Anywhere</h2>
+            <p>Take the leap with us</p>
+            <div class="benefits_btn"></div>
+          </div>
+          <div class="benefits_card">
+            <h2>Free food Included</h2>
+            <p>with every trip</p>
+            <div class="benefits_btn"></div>
+          </div>
+          <div class="benefits_card">
+            <h2></h2>
+            <p></p>
+            <div class="benefits_btn"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Sign up Form ------------------->
+      <div class="form-container">
+      <form class="form1" id="form">
+      <div id="sign-up">
+          
+        <label for="username">User Name</label>
+        <i class="fas fa-user"></i>
+        
+        <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Joy Shaheb"
+         />
+        
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        
+        <div class="error"></div>
+        
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <i class="fas fa-lock"></i>
+        
+        <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password here"
+         />
+        
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        
+        <div class="error"></div>
+        
+    </div>
+    <!-- Email input -->
+        
+<div>
+	<label for="email">Email</label>
+    <i class="far fa-envelope"></i>
+    
+    <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="abc@gmail.com"
+     />
+    
+    <i class="fas fa-exclamation-circle failure-icon"></i>
+    <i class="far fa-check-circle success-icon"></i>
+    
+    <div class="error"></div>
+    
+</div>
+<button id="btn" type="submit">Submit</button>
+</form>
+</div>
+      </div>
+    <script src="app.js"></script>
+  </body>
+</html>
