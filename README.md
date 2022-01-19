@@ -2,7 +2,7 @@
 
 ### Built With
 
-HTML
-CSS
-JavaScript
+HTML <br/>
+CSS <br/>
+JavaScript <br/>
 <p align="right">(<a href="#top">back to top</a>)</p>
