@@ -1,7 +1,7 @@
 # Travel-Website
-### Purpose of this project
+ Purpose of this project<br/>
 This project was built to work on my CSS, HTML and JavaScript skills, this project was also built to show of what I can do with those technologies!
-### Built With
+Built With<br/>
 
 HTML <br/>
 CSS <br/>
